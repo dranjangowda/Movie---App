@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <header>
+           <div class="navigationBar">
+             <nav>
+                 <ul class="nav__links">
+                     <li><a href="home.html">Home</a></li>
+                     <li><a href="login.html">Login</a></li>
+                     <li><a href="signup.html">Sign Up</a></li>
+                 </ul>
+             </nav>
+           </div>
+        </header>
+        <div class="container">
+            <h1>LOGIN</h1>
+         <form action="" id="login" onsubmit="login(event)">
+             <input type="email" id="email" placeholder="Enter a valid Email Id" maxlength="30">
+             <input type="password" id="password" placeholder="Password" maxlength="15" minlength="8">
+             <input type="submit" id="submit">
+             <div id="error"></div>
+         </form>
+        </div>
+       
+        
+        <script src="login.js" async defer></script>
+    </body>
+</html>

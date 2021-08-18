@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="home.css">
+        <style>
+        nav{
+        width:100%;
+        }</style>
+      
+    </head>
+    <body>
+       <div class="container">
+        <header>
+            <div class="navigationBar">
+              <nav>
+                  <ul class="nav__links">
+                      <li><a href="home.html">Home</a></li>
+                      <li><a href="login.html">Login</a></li>
+                      <li><a href="signup.html">Sign Up</a></li>
+                  </ul>
+              </nav>
+            </div>
+         </header>
+         <div id="slideShow"></div>
+         <div class="sort"> 
+             <button onclick="sortLh()">sort:Low to High </button>
+             <button onclick="sortHl()">sort:High to Low </button>
+             <button onclick="sortYear()"> sort:year</button>
+         </div>
+         <div id="movieList"></div>
+       </div>
+       <div id="movieList"></div>
+        <script src="home.js"></script>
+    </body>
+</html>

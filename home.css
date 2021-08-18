@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Zen+Tokyo+Zoo&display=swap');
+
+
+body{
+    background: rgb(36,0,0);
+    background: linear-gradient(90deg, rgb(238, 6, 83) , rgb(45, 33, 100));
+
+}
+.navigationBar{
+    /* margin-left: 1250px; */
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    background: rgba( 255, 65, 65, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.0px );
+    -webkit-backdrop-filter: blur( 7.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+li,a{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-weight: 1000;
+    font-size: 26px;
+    color: rgb(211, 211, 255);
+    text-decoration: none;
+}
+
+.nav__links{
+    list-style: none;
+}
+.nav__links li{
+    display: inline-block;
+    justify-content: right;
+    padding: 0px 20px;
+}
+
+img{
+    width: 90%;
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+#slideShow{
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background: rgba( 6, 6, 6, 0.60 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-bottom: 25px;
+}
+.moviePoster{
+    width: 25%;
+    margin: 20px;
+    background: rgba( 6, 6, 6, 0.60 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.moviePoster > img{
+    justify-content: center;
+    width: 80%;
+    margin-top: 20px;
+    /* margin-left: 50px; */
+}
+#movieList{
+    color: white;
+    font-size: large;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    margin-left: 268px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.movieTitleHeading{
+    color: rgb(253, 80, 80);
+}
+.sort{
+    width: 70%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 230px;
+    background: rgba( 6, 6, 6, 0.60 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+.sort > button{
+    width:30%;
+    border-radius: 25px;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+    background-color: #131212;
+    box-shadow: black;
+    height: 35px;
+}
+.sort > button:hover{
+background-color: rgb(253, 80, 80);
+color: white;
+}

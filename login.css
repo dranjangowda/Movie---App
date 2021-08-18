@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Zen+Tokyo+Zoo&display=swap');
+
+.navigationBar{
+    /* margin-left: 1250px; */
+    margin-top: 25px;
+    background: rgba( 255, 65, 65, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.0px );
+    -webkit-backdrop-filter: blur( 7.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+li,a{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-weight: 1000;
+    font-size: 26px;
+    color: #edf0f1;
+    text-decoration: none;
+    text-align: right;
+}
+
+.nav__links{
+    list-style: none;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+body{
+    background: url("https://rukminim1.flixcart.com/image/416/416/jqmnv680/poster/3/w/r/medium-pwl-miscellaneous-red-blue-wall-poster-13-19-inches-matte-original-imaek7n63gzxba8p.jpeg?q=70")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-weight: 1000;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 150px;
+    background: rgba( 255, 65, 65, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.0px );
+    -webkit-backdrop-filter: blur( 7.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+input{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    background: rgba( 252, 11, 11, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+::placeholder{
+    color: white;
+    font-weight: 1000;
+    
+}
+#submit{
+    width: 101%;
+    color: white;
+    background-color: rgb(51, 51, 250);
+    font-size: larger;
+    font-weight: 700;
+}
+#submit:hover{
+    background-color: #c34040;
+}
+#error{
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    color: red;
+    background-color: black;
+    font-size: larger;
+}
